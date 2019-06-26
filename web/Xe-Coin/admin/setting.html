@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Setting - XE Coin</title>
+  <link rel="shortcut icon" href="../images/favicon.png">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.9.0/css/flag-icon.css">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/admin.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="backcolor" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img class="responsive-image" src="../images/logo.png" alt="img"></a>
+      <!-- Menu Dekstop -->
+      <ul class="right hide-on-med-and-down">
+        <li><a type="button" class="btn red waves-effect waves-light logo">Balance: 0 FORK</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="country"><span class="flag-icon flag-icon-id"></span><i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Hi, Loveita<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#">Setting</a></li>
+        <li><a href="#">Log Out</a></li>
+      </ul>
+      <ul id="country" class="dropdown-content">
+        <li><a href="#"><span class="flag-icon flag-icon-my"></span> Malaysia</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-id"></span> Indonesia</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-sg"></span> Singapore</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-th"></span> Thailand</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-kh"></span> Cambodia </a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-vn"></span> Vietnam</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-ph"></span> Philippines</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-mm"></span> Myanmar</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-bn"></span> Brunei</a></li>
+      </ul>
+     <!-- Menu Mobile -->
+      <ul id="nav-mobile" class="side-nav">
+        <li><a type="button" class="btn red waves-effect waves-light logo">Balance: 0 FORK</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownmobile">Hi, Loveita<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="trade.html">Trade</a></li>
+        <li><a href="wallet.html">Wallet</a></li>
+        <li><a href="setting.html">Setting</a></li>
+        <li><a href="buy.html">Buy Coin</a></li>
+        <li><a href="sell.html">Sell Coin</a></li>
+      </ul>
+      <ul id="countrymobile" class="dropdown-content">
+        <li><a href="#"><span class="flag-icon flag-icon-my"></span> Malaysia</a></li>
+        <li><a href="index.html"><span class="flag-icon flag-icon-id"></span> Indonesia</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-sg"></span> Singapore</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-th"></span> Thailand</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-kh"></span> Cambodia </a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-vn"></span> Vietnam</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-ph"></span> Philippines</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-mm"></span> Myanmar</a></li>
+        <li><a href="#"><span class="flag-icon flag-icon-bn"></span> Brunei</a></li>
+      </ul>
+      <ul id="dropdownmobile" class="dropdown-content">
+        <li><a href="#">Setting</a></li>
+        <li><a href="#">Log Out</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="countrymobile" class="mobile dropdown-button right"><span class="flag-icon flag-icon-id"></span><i class="material-icons right">arrow_drop_down</i></a>
+    </div>
+  </nav>
+
+  <!--Dashboard Balance -->
+  <div class="container">
+    <div class="section">
+      <div class="row dashboard leftlight">
+        <h4>Setting</h4>
+      </div>
+    </div>
+  </div>
+
+    <!-- Change Password -->
+    <div class="container">
+      <div class="section">
+        <div class="row admincard">
+            <h3>Change Password</h3>
+            <div class="col l6 s12">
+              <p>
+                  Requirements:<br>
+                  Only strong password will be accepted.<br>
+                  Password must be minimum 10 character.<br>
+                  Password must be alphanumeric.<br>
+                  Password must have special character (e.g @ or !)               
+              </p>
+            </div>
+            <div class="col l6 s12">
+              <input type="text" placeholder="Current Password">
+              <input type="text" placeholder="New Password">
+              <input type="text" placeholder="Confirm Password">
+              <center><button class="btn waves-effect waves-light">Save Changes</button></center>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit Propile -->
+  <div class="container">
+      <div class="section">
+        <div class="row center admincard">
+          <h3>Edit Propile</h3>
+            <p>Email Address</p>
+            <input type="text" class="center" placeholder="youremailaddress@email.com" style="width: 80%">
+            <br><button class="btn waves-effect waves-light">Save Changes</button>
+            <h6><i class="material-icons">warning</i> If you change your e-mail you will be logged out until you confirm your new e-mail address.</h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- Two Step Auth -->
+  <div class="container">
+      <div class="section">
+        <div class="row admincard">
+            <h3>Two Step Auth</h3>
+              <img class="responsive-img" src="../images/google-auth.png" width="200" >
+              <p>Two-Step Verification will enhance your account security. You will require to enter additional code during Login and making Forkcoin transfer.</p>
+              <a class="btn waves-effect waves-light" href="#">Turn On</a>
+      </div>
+    </div>
+  </div>
+    
+      
+
+  <div class="container">
+    <div class="row">
+      <div class="row"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <ul class="bottom_tabs">
+        <li class="tab"><a href="index.html">Dashboard</a></li>
+        <li class="tab"><a href="trade.html">Trade</a></li>
+        <li class="tab"><a href="wallet.html">Wallet</a></li>
+        <li class="tab"><a class="active" href="setting.html">Setting</a></li>
+        <li class="tab"><a href="buy.html">Buy Coin</a>
+        <li class="tab"><a href="sell.html">Sell Coin</a>
+      </ul>
+    </div>
+  </div>          
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+  $(".dropdown-button").dropdown();
+  $('ul.tabs').tabs();
+  </script>
+
+  </body>
+</html>

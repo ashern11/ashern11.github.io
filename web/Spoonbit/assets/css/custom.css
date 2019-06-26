@@ -1,0 +1,142 @@
+p{
+    color: #fff;
+}
+.form-control{
+    color: #fff;
+}
+/* Sales */
+.border-right{
+    border-right: 1px solid #555;
+}
+.sales{
+    width: 400px;
+    background: #647fae;
+    border-radius: 10px;
+    padding: 30px;
+}
+.sales .title{
+    font-size: 36px;
+    color: #fff;
+}
+.sales .card{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.sales .card-title{
+    color: #fcb118;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.sales .startsales{
+    color:#fe6847;
+    font-size: 38px;
+}
+.sales .time{
+    color: #494949;
+    font-weight: bold;
+}
+.sales .crypto{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+.sales .btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+/* Roadmap */
+.roadmap{
+    margin: 50px 0;
+}
+/* Subscribe */
+.subscribe .h2-main{
+    margin-top: 35px;
+    color: #fff;
+}
+.subscribe .form-control{
+    background: transparent;
+    border-radius: 30px;
+    height: 50px;
+    border: 2px solid #889ec5;
+    border-right: none;
+    color: #fff;	
+}
+.subscribe .form-control::placeholder{
+    color: #fff;
+}
+.subscribe .btn-default{
+    border-radius: 30px;
+    background: #e25738;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #889ec5;
+    border-left: none;
+    height: 50px;
+    min-width: 150px;
+}
+.card-subscribe{
+    height: 150px;
+    margin: 5px;
+}
+.card-subscribe .logo{
+    margin-top: 15px;
+    margin-left: 28px;
+    margin-bottom: 5px;
+    color: #fff;		
+}
+.card-subscribe span{
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;		
+}
+.card-subscribe .btn{
+    min-width: 80%;
+    padding: 0;
+    margin: 15px;
+    border-radius: 30px;
+    color: #fff;		
+}
+/* Partner */
+.partner{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+/* Footer */
+footer ul{
+    text-align: right;		
+}
+footer ul li{
+    margin: 15px;
+}
+footer ul li a{
+    color: #fff;
+}
+@media only screen and (max-width: 1024px){
+    .card-subscribe .logo{
+        margin-left: 27px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .card-subscribe .logo{
+        margin-left: 25px;
+    }
+
+    .sales{
+        width: 100%;
+        background: #647fae;
+        border-radius: 10px;
+        padding: 30px;
+    } 
+}
+
+@media only screen and (max-width: 600px){
+    .card-subscribe .logo{
+        margin-left: 37px;
+    }
+}

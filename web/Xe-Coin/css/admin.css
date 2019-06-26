@@ -1,0 +1,159 @@
+body{
+    background-color: #2d4257;
+    color: white;
+}
+
+.leftlight{
+  border-left: 6px solid #ffb901;
+  padding-left: 10px;
+}
+
+h6{
+  color: #ffb901;
+}
+
+.middle{
+  float: center;
+  width: 50%;
+  overflow: visible;
+}
+
+.verification{
+  border-radius: 10px;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.admincard{
+  background-color: #293b4f;
+  color: #fff;
+  border: 0.5px solid #626d77;
+  border-radius: 2px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.admincard img{
+float : left;
+padding-right : 15px;
+}
+
+.admincard h3{
+  color: #000;
+  font-size: 20px;
+  background-color: #ffb901;
+  padding: 11px;
+  margin: -11px;
+  margin-bottom : 20px;
+}
+
+.admincard input[type="select"]{
+  color: black;
+}
+
+.bottom_tabs{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 98%;
+  z-index: 997;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom_tabs .tab {
+background-color: #bd8b04;
+color: #fff;
+margin-left: 5px;
+margin-right: 5px;
+-webkit-box-flex: 1;
+-webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+}
+
+
+.bottom_tabs .tab a {
+color: #fff;
+display: block;
+width: 100%;
+height: 100%;
+padding-top: 10px;
+font-size: 14px;
+text-overflow: ellipsis;
+overflow: hidden;
+-webkit-transition: color .28s ease;
+transition: color .28s ease;
+text-align: center;
+line-height: 48px;
+margin: 0;
+text-transform: uppercase;
+}
+
+.bottom_tabs .tab a:hover,.bottom_tabs .tab a.active {
+border-top: #fff solid 2px;
+background-color: #ffb900;
+color: #000;
+}
+
+.content{
+  border: 0.5px solid #ffb901;
+  border-top: none;
+  border-radius: 2px;
+  padding-bottom: 40px;
+}
+
+.content ul{
+background-color:#ffb901;
+}
+
+.content .tabs .indicator{
+  background-color: white;
+}
+
+.content .tabs .tab {
+  background-color: #ffb901;
+  color: #fff;
+}
+
+.content .tabs .tab a {
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 24px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: color .28s ease;
+  transition: color .28s ease;
+}
+
+.content .tabs .tab a:hover,.bottom_tabs .tabs .tab a.active {
+  background-color: #ffb900;
+  color: #000;
+}
+
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width : 992px) {
+  .bottom_tabs{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
+
+}
+
+
+@media only screen and (max-width : 600px) {
+}
+

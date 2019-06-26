@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Smoothie';
+    src: url('../font/Smoothie-Shoppe.ttf');
+    src: url('../font/Smoothie-Shoppe.ttf') format('truetype');
+    font-style: normal      
+}
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('../font/Cocogoose-Pro-Ultralight-trial.ttf');
+    src: url('../font/Cocogoose-Pro-Ultralight-trial.ttf') format('truetype');
+    font-style: normal      
+}
+body.pace-running:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1500;
+    background: rgba(0, 0, 0, 0.95)
+}
+
+.wrapper{
+    position: relative;
+}
+.cover{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    background: url(../images/cover.jpg);
+    background-position: center center;
+    background-size: 100% auto;
+}
+.ikon{
+    position: fixed;
+    top: 4vh;
+    left: 2vw;
+}
+.logo-mui{
+    position: absolute;
+}
+
+.content{
+    position: relative;
+    padding-top: 70vh;
+    height: auto
+}
+
+.comeon{
+    background: url(../images/2.png);
+    background-size: 100% 100%;
+    padding: 50px;
+    position: relative;
+    z-index: 5;
+}
+
+.about{
+    margin-top: -4vh;
+    background: url(../images/featured.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.featured{
+    background: url(../images/4.png);
+    background-size: 100% 100%;
+    padding-bottom:100px!important;
+    margin-top: -4vh;
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    font-weight: 500;
+}
+    .featured .title{
+        padding-top: 3rem;
+        margin: auto 0;
+        width: 500px
+    }
+    .featured .kolomkiri{
+        padding-left: 5vw;
+    }
+    .featured .kolomkanan{
+        padding-right: 5vw;
+    }
+    .featured .box{
+        position: relative;
+        margin-top: 20px;
+        padding: 30px 0 0 120px;
+    }
+    .featured .box.right{
+        padding: 30px 120px 0 0;
+        text-align: right;
+    }
+    .featured .icon{
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        left: 0;
+    }
+    .featured .icon.right{
+        left: auto;
+        right: 0;
+    }
+    .featured .icon img{
+        display: block;
+        position: relative;
+    }
+
+
+.product{
+    background: url(../images/5.jpg);
+    background-size: cover;
+    margin-top: -4vh;
+}
+    .product h4{
+        color: #fff;
+    }
+
+
+.testimoni{
+    background: #000;
+    color: #fff;
+}
+.testimoni .content-testimoni{
+    padding: 1rem;
+}
+
+
+.rating{
+    background: url(../images/bg-rating.jpg);
+    background-size: cover;
+}
+    .rating .rate{
+        text-align: center;
+        background: #fff;
+        height: 100%;
+        box-shadow: 2px 2px 15px 5px #00000030;
+    }
+    .rating .fa{
+        color: #fcba0e;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: black;
+    }
+
+
+.margin{
+    background: #000;
+    color: #fff;
+}
+
+.ketentuan{
+    background: url(../images/5.jpg);
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+}
+
+.join{
+    background: url(../images/9.png);
+    background-size: 100% 100%;
+    background-position: center;
+    margin-top: -4vh;
+}
+
+.footer{
+    background: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+.f-smoothie{
+    font-family: 'Smoothie';
+}
+h1.f-smoothie{
+    font-size: 5em;
+}
+section div.container-fluid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gold{
+    color: #fcba0e;
+}
+.border-right-black{
+    border-right: 1px solid #000;
+}
+.slick img{
+    margin: 0 auto;
+}
+.slick-slide {
+    outline: none
+}
+.btn{
+    border-radius: 50px;
+}
+.btn-primary{
+    background: #fcba0e ;
+    border-color: #fcba0e ;
+    color: #000;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-primary:hover{
+    background: #ff8800 ;
+    border-color: #ff8800 ;
+    color: #000000;
+}
+.btn-outline-primary{
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btn-outline-primary:hover{
+    background: #fcba0e;
+    border: 2px solid #ffb700;
+    color: #000;
+}
+
+
+.modal-body a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .about,.featured,.product,.join{
+        margin-top: -7vh;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .cover img{
+        width: 80%;
+        height: auto;
+    }
+    .border-right-black, .border-right, .border-left, .border-top{
+        border: none!important;
+    }
+    .about,.featured,.product,.join{
+        margin-top: -10vh;
+    }
+}
+
+@media screen and (max-width: 760px) and (orientation:landscape) {
+    .content{
+        padding-top: 120vh;
+    }
+    .cover .row{
+        padding: 0!important;
+    }
+    .cover img{
+        width: 50%;
+    }
+
+    .featured{
+        margin-top: -10vh;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    .content{
+        padding-top: 55vh;
+    }
+
+    h1.f-smoothie{
+        font-size: 4em;
+    }
+    h4{
+        font-size: unset;
+    }
+
+    .logo-mui{
+        padding-top: 8vh;
+    }
+
+    .featured{
+        margin-top: -5vh;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 50px!important;
+        font-size: 14px;
+    }
+    .featured .title{
+        padding: 0;
+    }
+    .featured .kolomkiri,.featured .kolomkanan{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .featured .box{
+        padding: 20px 0 0 100px;
+        margin: 0;
+    }
+    .featured .box.right{
+        padding: 30px 0 0 100px;
+        text-align: left;
+    }
+    .featured .box img{
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 80%;
+    }
+    .featured .icon.right{
+        left: 0;
+        right: unset;
+    }
+
+    .product{
+        margin-top: -4vh;
+    }
+
+
+    .cover{
+        background-size: cover;
+        background-position: center;
+    }
+    .comeon{
+        background-size: cover;
+        background-position: right;
+    }
+    .about{
+        padding: 0 15px!important;
+        margin-top: -4vh;
+        background-size: cover;
+        background-position: left;
+    }
+    .about .row{
+        background: #00000080;
+        padding: 50px 0;
+    }
+    /*
+    .about .row{
+        background: url(../images/3.jpg);
+        background-size: auto 100%;
+    }
+    */
+    .rating{
+        padding: 50px 15px !important;
+    }
+    .join{
+        margin-top: -4vh;
+        background-size: cover;
+    }
+
+    .slick-prev{
+        left: 0px;
+    }
+    .slick-next{
+        right: 0px;
+    }
+
+
+}

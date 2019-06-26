@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons-->
+	  <link rel="shortcut icon" type="image/png" href="images/logo.ico"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Search</title>
+    <style>
+    .form-control:disabled, .form-control[readonly] {
+    background-color: #ffffff;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.png" width="40"> MOVER</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><span class="fa fa-home"></span> Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+
+                <a class="nav-link" href="#"><span class="fa fa-user"></span> Mr Prof Name</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="fa fa-sign-out-alt"></span> Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+      </nav>
+    </header>
+
+    <main>
+
+    <!-- Checkout -->
+    <div class="jumbotron jumbotron-fluid p-2">
+      <div class="container">
+        <div class="title text-center">
+          <h2>Checkout</h2>
+        </div>
+        <div class="row">
+          
+          <!-- Vendor + Select Address -->
+          <div class="col-lg-8 col-md-12">
+            <div class="cards">
+              <div class="row">
+                <!-- Table Vendor -->
+                <div class="col-md-12 col-12 mb-4">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5>Vendor</h5>
+                      </div>
+                      <div class="card-body">
+                        <!-- Table Vertical 
+                        <table class="table table-responsive">
+                          <tbody>
+                            <tr>
+                              <th>From </th>
+                              <td>:</td>
+                              <td>Sabah</td>
+                            </tr>
+                            <tr>
+                              <th>Where </th>
+                              <td>:</td>
+                              <td>Perlis</td>
+                            </tr>
+                            <tr>
+                              <th>Pickup Date </th>
+                              <td>:</td>
+                              <td>17/Apr/2018 - 17/Apr/2018</td>
+                            </tr>
+                            <tr>
+                              <th>Delivery Date</th>
+                              <td>:</td>
+                              <td>17/Apr/2018</td>
+                            </tr>
+                            <tr>
+                              <th>Transit Point </th>
+                              <td>:</td>
+                              <td>-</td>
+                            </tr>
+                            <tr>
+                              <th>Available Volume (m³) </th>
+                              <td>:</td>
+                              <td>100</td>
+                            </tr>
+                            <tr>
+                              <th>Price per m³	 </th>
+                              <td>:</td>
+                              <td>90.00</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        -->
+                        
+                        <!-- Tabel Horizontal 
+                        <table class="table table-responsive">
+                          <thead>
+                            <tr>
+                              <th>From</th>
+                              <th>Where</th>
+                              <th>Pickup Date</th>
+                              <th>Delivery Date</th>
+                              <th>Transit Point</th>
+                              <th>Available Volume (m³)</th>
+                              <th>Price per m³</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Sabah</td>
+                              <td>Perlis</td>
+                              <td>17/Apr/2018 - 17/Apr/2018</td>
+                              <td>17/Apr/2018</td>
+                              <td>-</td>
+                              <td>100</td>
+                              <td>90.00</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        -->
+
+                        <div class="row">
+                          <div class="col-md-6 col-12">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend w-50">
+                                <div class="input-group-text w-100">Form</div>
+                              </div>
+                              <input type="text" class="form-control" value="Sabah" disabled>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend w-50">
+                                <div class="input-group-text w-100">Where</div>
+                              </div>
+                              <input type="text" class="form-control" value="Perlis" disabled>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 col-12">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend w-50">
+                                <div class="input-group-text w-100">Delivery Date</div>
+                              </div>
+                              <input type="text" class="form-control" value="17/Apr/2018" disabled>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend w-50">
+                                <div class="input-group-text w-100">Transit Point</div>
+                              </div>
+                              <input type="text" class="form-control" value="-" disabled>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 col-12">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend w-50">
+                                <div class="input-group-text w-100">Volume (m³)</div>
+                              </div>
+                              <input type="text" class="form-control" value="100" disabled>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend w-50">
+                                <div class="input-group-text w-100">Price per m³</div>
+                              </div>
+                              <input type="text" class="form-control" value="100" disabled>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend w-100">
+                                <div class="input-group-text w-100">Pickup Date</div>
+                              </div>
+                              <input type="text" class="form-control" value="17/Apr/2018" disabled>
+                              <input type="text" class="form-control" value="17/Apr/2018" disabled>
+                            </div>
+                          </div>
+                        </div>
+
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#negotiation"><span class="fa fa-dollar-sign"></span> Negotiation</button>            
+                      </div>
+                  </div>
+                </div>
+
+                <!-- Select Address -->
+                <div class="col-md-12 col-12">
+                  <div class="card mb-2">
+                    <div class="card-header">
+                      <h5>Select Address</h5>
+                    </div>
+                    <div class="card-body">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="address1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="address1">575 Beahan Rapids Port Branson, NV 13052-9105</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="address2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="address2">266 Okuneva Lodge Oberbrunnerbury, VA 26344-8633</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="address3" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="address3">88956 Tromp Ferry Handbury, DE 20459-9819</label>
+                      </div>
+                      <br>
+                      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#newaddress"><span class="fa fa-address-book"></span> New Address</button>                              
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Payment Method -->
+          <div class="col-lg-4 col-md-12">              
+            <div class="cards" id="payment">
+              <div class="card">
+                <div class="card-header"><h5>Payment Method</h5></div>
+                <div class="card-body">
+                  <div id="accordion">
+                    <div class="card">
+                      <div class="cards-header" id="headingOne">
+                          <input type="radio" name="payment" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Bank Payment
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="cards-header" id="headingTwo">
+                          <input type="radio" name="payment" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Crypto Currency
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="cards-header" id="headingThree">
+                          <input type="radio" name="payment" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Senang Pay
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+              <div class="text-right">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#checkout"><span class="fa fa-shopping-cart"></span> Checkout</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+            
+      </div>
+    </div>
+
+  
+    <!-- Modal -->
+    <div class="modal fade" id="checkout" tabindex="-1" role="dialog" aria-labelledby="ModalCheckout" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Checkout Status</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <center>
+              <img src="images/success.png" width="200" class="mx-auto">
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary"  data-dismiss="modal"><span class="fa fa-check"></span> Finish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal Negotiation -->
+    <div class="modal fade" id="negotiation" tabindex="-1" role="dialog" aria-labelledby="ModalCheckout" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Negotiation ?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label>Total offer</label>
+              <input type="text" class="form-control" value="11.00" disabled>
+              <label>Offer With New Condition</label>
+              <input type="number" min="0" max="100" class="form-control" value="0">
+            </div>
+            <div class="form-group">
+              <label>Note</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning form-control">Send Negotiation</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal NewAddress -->
+    <div class="modal fade" id="newaddress" tabindex="-1" role="dialog" aria-labelledby="ModalCheckout" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Add New Addreess ?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label>Address</label>
+                  <input type="email"  class="form-control mb-1" placeholder="Address Line 1">
+                  <input type="email"  class="form-control mb-1" placeholder="Address Line 2">
+                  <input type="email"  class="form-control" placeholder="Address Line 3">
+                </div>
+                <div class="form-group">
+                  <label>City</label>
+                  <input type="email"  class="form-control" placeholder="City">
+                </div>
+                <div class="form-group">
+                  <label>Post Code</label>
+                  <input type="email"  class="form-control" placeholder="Post Code">
+                </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary form-control">Add New Address</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-widget">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <h4>Mover</h4>
+                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis no strud.</p>
+              </div>
+              <div class="col-md-2 col-6">
+                <h4>Link</h4>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="faq.html">Faq</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-6">
+                <h4>Member</h4>
+                <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="forgot.html">Forgot Password?</a></li>
+                </ul>
+                <div class="mb-4"></div>
+              </div>
+              <div class="col-md-4 col-12">
+                <h4>Get In Touch</h4>
+                <ul>
+                  <li><span class="fa fa-map-marker-alt"></span> Kuala Lumpur</li>
+                  <li><span class="fa fa-phone"></span> (001) 001 001 001</li>
+                  <li><span class="fa fa-envelope"></span> email@tranportmaket.com</li>
+                </ul>
+                <div class="mb-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="divider"></div>
+  
+        <div class="copyright">
+            Copyright &copy Transport Market, All Right Reversed.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script>
+      $(document).ready(function(){
+        console.log($(window).width());
+        if($(window).width() <= 600){
+          $("#payment").unstick();
+        }else{
+          $("#payment").sticky({topSpacing:0, zIndex:2});
+        }
+      });
+    </script>
+  </body>
+</html>

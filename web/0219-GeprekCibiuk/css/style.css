@@ -1,0 +1,518 @@
+@font-face {
+    font-family: 'Magnolia Script';
+    src: url('../font/Magnolia Script.otf');
+    src: url('../font/Magnolia Script.otf') format('opentype');
+    font-style: normal      
+}
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('../font/Nexa Bold');
+    src: url('../font/Nexa Bold.otf') format('opentype');
+    font-style: normal      
+}
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('../font/Nexa Light.otf');
+    src: url('../font/Nexa Light.otf') format('opentype');
+    font-style: normal      
+}
+
+body{
+    font-family: 'Nexa Bold';
+    margin: 0;
+}
+
+.slick-slide {
+    outline: none
+}
+
+.wrapper{
+    margin-top: 100vh;
+    position: relative; 
+    background: #fff
+}
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.col-12{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.img-responsive{
+    max-width: 100%!important;
+    height: auto;
+}
+
+.konten1{
+    background: url(../img/konten1-0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    font-family: "Nexa Light";
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: all 1s linear;
+}
+.konten1 img{
+    position: absolute;
+    width: 250px;
+    margin-left: 2rem;
+    top: 2rem;
+}
+.konten1 h1{
+    font-family: "Magnolia Script";
+    font-weight: 500;
+    font-size: 5em;
+    letter-spacing: 5px;
+    margin-top: 0;
+}
+.konten1 h2{
+    letter-spacing: 10px;
+    margin-bottom: 0;
+}
+.konten1 a.btn{
+    text-decoration: none;
+    display:inline-block;
+    font-weight:400;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:2px solid #fff;
+    padding:.375rem 2rem;
+    font-size:1rem;
+    line-height:1.5;
+    border-radius:5rem;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.konten2{
+    background: url(../img/konten2-0.jpg);
+    background-position: right;
+    background-repeat:no-repeat;
+    background-size: auto 100%;
+    height: 100vh;
+    font-family: 'Nexa Bold';
+    color: #454545;
+    padding: 0 4%;
+}
+.konten2 h1{
+    font-size: 3rem;
+    margin-top: 0;
+    position: relative;
+}
+.konten2 h1:before{
+    content: '';
+    height: 4px;
+    background-color: #454545;
+    position: absolute;
+    top: 100%;
+    margin-top: 1.5rem;
+    left: 0;
+    width: 4%;
+}
+.konten2 h2{
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+.konten2 .slick-slider{
+    margin-top: 5rem;
+    max-width: 500px;
+}
+.konten2 p{
+    color: #777777;
+    font-size: 1.2rem;
+}
+
+
+.konten-menu{
+    background: url(../img/bg-menu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5% 0;
+    color: #454545;
+}
+.konten-menu .harga{
+    float: right;
+}
+.konten-menu .collapse .row{
+    padding: 0 5%;
+    text-align: left;
+}
+.konten-menu .menu{
+    padding: 0 40px;
+}
+.konten-menu h1{
+    margin-top: 0;
+    margin-bottom: 4rem;
+    position: relative;
+}
+.konten-menu h1:before{
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 4px;
+    background: #454545;
+    top: 100%;
+    margin-top: .5rem;
+    left: 49%;
+}
+.konten-menu h2{
+    margin-bottom: 0;
+}
+.konten-menu .slick-menu{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.konten-menu .slick-slide{
+    transform: scale(.75)
+}
+.konten-menu .slick-center{
+    transform: scale(1);
+}
+.konten-menu .collapse {
+    display: none;
+    /* transition: max-height 0.2s ease-out; */
+}
+.konten-menu button.btn{
+    display:inline-block;
+    font-weight:400;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:2px solid #ff0000;
+    padding:.375rem 2rem;
+    font-size:1rem;
+    line-height:1.5;
+    border-radius:5rem;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.konten-tentang{
+    background: url(../img/about-0.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    transition: all 1s linear;
+}
+.tentang-kami{
+    margin-left: 48%;
+    max-width: 40vw;
+    height: fit-content;
+}
+.tentang-kami h1{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.tentang-kami h1:before{
+    content: '';
+    height: 4px;
+    background-color: #454545;
+    position: absolute;
+    top: 100%;
+    margin-top: .5rem;
+    left: 0;
+    width: 4%;
+}
+.tentang-kami h2{
+    margin-top: 4rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+.tentang-kami p{
+    color: #777777;
+    font-size: 1.2rem;
+}
+
+.konten-instagram{
+    background: #f1f1f1;
+    padding: 7% 50px 0;
+    color: #777777;
+}
+.konten-instagram h1, .konten-instagram h2, .konten-instagram h4{
+    margin: 0;
+    margin-bottom: 4px;
+}
+.konten-instagram .slick-instagram{
+    max-width: 70%;
+    margin: 4rem auto;
+}
+.konten-instagram .slick-slide{
+    transform: scale(.75)
+}
+.konten-instagram .slick-center{
+    transform: scale(1);
+}
+
+
+
+.konten-kontak{
+    background:url(../img/bg-contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 20vh;
+    padding: 40px 0;
+    text-align: center;
+    color: #777777;
+}
+
+
+footer{
+    position: relative;
+    background: #fff;
+    text-align: center;
+    font-family: 'Nexa Light';
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 1024px){
+    .konten-tentang{
+        padding: 5%;
+    }
+    .tentang-kami{
+        margin-left: 0;
+        max-width: 100%;
+        background: #ffffff99;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .konten1 img{
+        max-width: 40%;
+    }
+
+    .konten2 .col-12{
+        background: #ffffff99;
+    }
+    .konten2 .col-12 div{
+        padding: 0 10px;
+    }
+
+    .konten-tentang{
+        background-size: 80%;
+    }
+
+    .konten-menu{
+        padding: 10% 0;
+    }
+    .konten-menu .col-6{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .konten-instagram{
+        padding: 15% 5% 0;
+    }
+    .konten-instagram .slick-instagram{
+        max-width: 100%;
+    }
+    .konten-instagram .col-6{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .konten-kontak .col-6{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
+    .slick-next{
+        right: 0;
+        z-index: 2;
+    }
+    .slick-prev{
+        left: 0;
+        z-index: 2;
+    }
+}
+
+
+
+/* Loading Screen - Pace */
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background: rgba(255, 255, 255, 0.98);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+.pace .pace-progress {
+    background: #ff0000;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+}
+
+.pace-activity{
+    display: block;
+    background: url(../img/icon.ico);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.pace .pace-progress-inner {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px #ff0000, 0 0 5px #ff0000;
+    opacity: 1.0;
+    -webkit-transform: rotate(3deg) translate(0px, -4px);
+    -moz-transform: rotate(3deg) translate(0px, -4px);
+    -ms-transform: rotate(3deg) translate(0px, -4px);
+    -o-transform: rotate(3deg) translate(0px, -4px);
+    transform: rotate(3deg) translate(0px, -4px);
+}
+
+
+
+/* Effect Waves */
+.prolog-atas{
+    position: absolute;
+    margin-top: -30px;
+    width: 100%;
+}
+.prolog-atas .animasi>use{
+    -webkit-animation:prolog-atas 12s linear infinite;
+    animation:prolog-atas 12s linear infinite
+}
+.prolog-atas .animasi>use:first-child{
+    -webkit-animation-delay:-2s;
+    animation-delay:-2s
+}
+.prolog-bawah{
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg)
+}
+.prolog-bawah .animasi>use{
+    -webkit-animation:prolog-bawah 12s linear infinite;
+    animation:prolog-bawah 12s linear infinite
+}
+.prolog-bawah .animasi>use:first-child{
+    -webkit-animation-delay:-5s;
+    animation-delay:-5s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.svg-prolog{
+    display:block;
+    width:100%;
+    height:32px;
+    margin:0
+}
+
+@-webkit-keyframes prolog-atas{
+    0%{
+        -webkit-transform:translate(-90px);
+        transform:translate(-90px)
+    }
+    to{
+        -webkit-transform:translate(85px);
+        transform:translate(85px)
+    }
+}
+@keyframes prolog-atas{
+    0%{
+        -webkit-transform:translate(-90px);
+        transform:translate(-90px)
+    }
+    to{
+        -webkit-transform:translate(85px);
+        transform:translate(85px)
+    }
+}
+@-webkit-keyframes prolog-bawah{
+    0%{
+        -webkit-transform:translate(85px);
+        transform:translate(85px)
+    }
+    to{
+        -webkit-transform:translate(-90px);
+        transform:translate(-90px)
+    }
+}
+@keyframes prolog-bawah{
+    0%{
+        -webkit-transform:translate(85px);
+        transform:translate(85px)
+    }
+    to{
+        -webkit-transform:translate(-90px);
+        transform:translate(-90px)
+    }
+}

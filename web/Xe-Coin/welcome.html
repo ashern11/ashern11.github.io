@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>XE - Coin</title>
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="backcolor" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="images/logo.png"></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container" style="background-color: #132436;"> 
+    <div class="section no-pad-bot">
+      <div class="container center">
+        <div class="row">
+          <img src="images/logobanner.png" alt="logo" class="logobanner">
+        <h2 class="title-header">WELCOME</h2>
+        <div class="row center">
+          <div class="col s12">
+            <h5 class="title-header">Please choose your Country</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 offset-s3 offset-l3">
+              <select class="input-field selectcountry browser-default center">
+                <option value="" disabled selected>Choose your country</option>
+                <option value="my">Malaysia</option>
+                <option value="id">Indonesia</option>
+                <option value="vn">Vietnam</option>
+                <option value="sg">Singapore</option>
+                <option value="th">Thailand</option>
+                <option value="mm">Myanmmar</option>
+                <option value="kh">Cambodia</option>
+                <option value="ph">Philippines</option>
+                <option value="bn">Brunei</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row center">
+        <div class="s12">
+          <img src="images/logobanner.png" alt="logo">
+          <p>If you'd like to get in touch with us, send us an email and 
+          we will get back to you as soon as possible!</p>
+          <h6>support@fd coin.io</h6>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright center">
+      <div class="container">
+        copyright Xe-coin.2018 all right reserverd 
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+  </script>
+
+  </body>
+</html>

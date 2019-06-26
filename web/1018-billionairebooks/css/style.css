@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Billabong';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../font/Billabong'), url('../font/Billabong.woff') format('woff');
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.billabong{
+    font-family: 'Billabong';
+    font-style: italic;
+    color: #ffcc00;
+}
+.btn-primary{
+    border-radius: 0;
+}
+.btn-secondary{
+    background: #222323;
+    border-radius: 0;
+}
+.middle{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.periode{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #4c6ba4;
+    color: #fff;
+}
+.yellow{
+    color: #ffcc00;
+}
+
+
+.header{
+    background-image: url(../images/bg-header.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.header h1{
+    font-size: 500%;
+}
+.header h4{
+    letter-spacing: 5px;
+}
+.header hr{
+    margin-top: 2%;border-bottom: 5px solid #fff; width:5%;
+}
+.bataswaktu h3{
+    margin: 0 auto;
+    width: 50%;
+    color: #000;
+    font-weight: bold;
+    background: #ffcc00;
+    padding: 5px 0px;;
+}
+.hari{
+    font-size: 4em;
+}
+.waktu{
+    display: inline;
+    font-size: 2em;
+}
+
+
+.spesial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.spesial h1{
+    font-weight: normal;
+}
+.spesial ul {
+    list-style: none;
+    padding: 0;
+}
+.spesial li {
+    padding-left: 1.3em;
+    margin-bottom: 20px;
+}
+.spesial li:before {
+    font-size: 20px;
+    content: "\f058"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+}
+
+
+.pelajari{
+    background: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    font-size: 24px;
+}
+.pelajari ul {
+    list-style: none;
+    padding: 0;
+}
+.pelajari li {
+    padding-left: 1.3em;
+}
+.pelajari li:before {
+    content: "\f14a"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+}
+
+
+
+
+.recomended{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.recomended .icon-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+.recomended .fa{
+    font-size: 50px;
+    color:#fff;
+    padding: 10px;
+    border-radius: 50%;
+    background: #000;
+    margin-bottom: 10px;
+}
+
+.testimonial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f5f5f5;
+}
+
+
+.form-order{
+    background: #4c6ba4;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    background: #202020;
+}
+@media only screen and (max-width: 768px){
+    .header h4{
+        font-size: 16px;
+    }
+    .bataswaktu h3{
+        font-size: 24px;
+    }
+    .hari{
+        font-size: 2em;
+    }
+    .waktu{
+        display: inline;
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 400px){
+    .header h1{
+        font-size: 50px;
+    }   
+    .header h4{
+        letter-spacing: 0;
+        font-size: 16px;
+    }
+    .bataswaktu h3{
+        margin: 0 auto;
+        width: 100%;
+        color: #000;
+        font-weight: bold;
+        font-size: 1.5em;
+        background: #ffcc00;
+        padding: 5px 0px;;
+    }
+    .hari{
+        font-size: 2em;
+    }
+    .waktu{
+        display: inline;
+        font-size: 1em;
+    }
+
+    .periode h2{
+        padding-top: 20px;
+        font-size: 1em;
+    }
+    
+    .form-order h1{
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .form-order h4{
+        font-size: 16px;
+    }
+}

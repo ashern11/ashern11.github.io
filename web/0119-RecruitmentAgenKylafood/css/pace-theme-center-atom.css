@@ -1,0 +1,198 @@
+/* This is a compiled file, you should be editing the file in the templates directory */
+.pace.pace-inactive {
+  display: none;
+}
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  z-index: 2000;
+  position: fixed;
+  height: 60px;
+  width: 100px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.pace .pace-progress {
+  z-index: 2000;
+  position: absolute;
+  height: 60px;
+  width: 100px;
+
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.pace .pace-progress:before {
+  content: attr(data-progress-text);
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1;
+  padding: 90% 0 7px;
+  width: 50%;
+  height: 40%;
+  margin: 10px 0 0 30px;
+  display: block;
+  z-index: 999;
+  position: absolute;
+}
+
+.pace .orbit {
+  background: url(../images/loading.png) no-repeat 10px 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  margin: -50px auto auto;
+}
+.pace .orbit .bola {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  -webkit-opacity: 0;
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+  -webkit-transform: rotate(225deg);
+  -khtml-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation: orbit 6.96s infinite;
+  -khtml-animation: orbit 6.96s infinite;
+  -moz-animation: orbit 6.96s infinite;
+  -ms-animation: orbit 6.96s infinite;
+  -o-animation: orbit 6.96s infinite;
+  animation: orbit 6.96s infinite;
+}
+.pace .orbit #bola-1 {
+  -webkit-animation-delay: .3s;
+  -khtml-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -ms-animation-delay: .3s;
+  -o-animation-delay: .3s;
+  animation-delay: .3s;
+}
+pace .orbit #bola-2 {
+  -webkit-animation-delay: .61s;
+  -khtml-animation-delay: .61s;
+  -moz-animation-delay: .61s;
+  -ms-animation-delay: .61s;
+  -o-animation-delay: .61s;
+  animation-delay: .61s;
+}
+.pace .orbit #bola-3 {
+  -webkit-animation-delay: .91s;
+  -khtml-animation-delay: .91s;
+  -moz-animation-delay: .91s;
+  -ms-animation-delay: .91s;
+  -o-animation-delay: .91s;
+  animation-delay: .91s;
+}
+.pace .orbit #bola-4 {
+  -webkit-animation-delay: 1.22s;
+  -khtml-animation-delay: 1.22s;
+  -moz-animation-delay: 1.22s;
+  -ms-animation-delay: 1.22s;
+  -o-animation-delay: 1.22s;
+  animation-delay: 1.22s;
+}
+.pace .orbit #bola-5 {
+  -webkit-animation-delay: 1.52s;
+  -khtml-animation-delay: 1.52s;
+  -moz-animation-delay: 1.52s;
+  -ms-animation-delay: 1.52s;
+  -o-animation-delay: 1.52s;
+  animation-delay: 1.52s;
+}
+.pace .orbit .bola .konten-bola {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 0;
+  top: 0;
+  -webkit-border-radius: 13px;
+  -khtml-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+  border-radius: 13px;
+}
+.pace .orbit .bola .konten-bola.merah {
+  background: #ff2129;
+}.pace .orbit .bola .konten-bola.jingga {
+  background: #f47d18;
+}.pace .orbit .bola .konten-bola.kuning {
+  background: #ff0;
+}.pace .orbit .bola .konten-bola.hijau {
+  background: #008400;
+}.pace .orbit .bola .konten-bola.biru {
+  background: #369;
+}
+
+
+
+@keyframes orbit{
+  0% {
+      opacity: 1;
+      z-index: 99;
+      transform: rotate(180deg);
+      animation-timing-function: ease-out;
+  }
+  
+  7% {
+      opacity: 1;
+      transform: rotate(300deg);
+      animation-timing-function: linear;
+      origin: 0%;
+  }
+  30% {
+      opacity: 1;
+      transform: rotate(410deg);
+      animation-timing-function: ease-in-out;
+      origin: 7%;
+  }
+  39% {
+      opacity: 1;
+      transform: rotate(645deg);
+      animation-timing-function: linear;
+      origin: 30%;
+  }
+  70% {
+      opacity: 1;
+      transform: rotate(770deg);
+      animation-timing-function: ease-out;
+      origin: 39%;
+  }
+  75% {
+      opacity: 1;
+      transform: rotate(900deg);
+      animation-timing-function: ease-out;
+      origin: 70%;
+  }
+  76% {
+      opacity: 0;
+      transform: rotate(900deg);
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(900deg);
+  }
+}

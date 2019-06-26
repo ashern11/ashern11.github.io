@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Favicons-->
+	  <link rel="shortcut icon" type="image/png" href="images/logo.ico"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/select.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Search</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.png" width="40"> MOVER</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><span class="fa fa-home"></span> Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"><span class="fa fa-info-circle"></span> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html"><span class="fa fa-question-circle"></span> FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><span class="fa fa-address-book"></span> Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="fa fa-users"></span> Member</a>
+                  <div class="dropdown-menu">
+                      <a class="nav-link" href="login.html"><span class="fa fa-sign-in-alt"></span> Login</a>
+                      <a class="nav-link" href="register.html"><span class="fa fa-user-plus"></span> Register</a>
+                  </div>
+              </li>
+              </ul>
+            </ul>
+          </div>
+        </div>  
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- Search -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+
+            <!-- Filter Search-->
+            <div class="cards" id="wrap">
+              <form>
+                <div class="container text-right">
+                  <span class="fa fa-cards"></span>Filter : 
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cardsmenu" aria-controls="cardsmenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                  </button>
+                </div>
+                
+                <div class="collapse" id="cardsmenu">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                      <label>Origin:</label>
+                      <select class="form-control"  id="origin">
+                        <option>Johor</option>
+                        <option>Kedah</option>
+                        <option>Kelantan</option>
+                        <option>Kuala Lumpur</option>
+                        <option>Labuan</option>
+                        <option>Melaka</option>
+                        <option>Negeri Johor</option>
+                        <option>Negri Sembilan</option>
+                        <option>Pahang</option>
+                        <option>Penang</option>
+                        <option>Perak</option>
+                        <option>Perlis</option>
+                        <option>Pulau Pinang</option>
+                      </select>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                      <label>Destination:</label>
+                      <select class="form-control" id="destination">
+                        <option>Johor</option>
+                        <option>Kedah</option>
+                        <option>Kelantan</option>
+                        <option>Kuala Lumpur</option>
+                        <option>Labuan</option>
+                        <option>Melaka</option>
+                        <option>Negeri Johor</option>
+                        <option>Negri Sembilan</option>
+                        <option>Pahang</option>
+                        <option>Penang</option>
+                        <option>Perak</option>
+                        <option>Perlis</option>
+                        <option>Pulau Pinang</option>
+                      </select>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                      <label>Date</label>
+                      <input type="date" name="date" class="form-control">
+                    </div>
+                    <div class="col-lg-1 col-md-3 col-12">
+                      <label> Weight </label>
+                      <input type="number" name="weight" class="form-control">                
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-12">
+                      <label class="w-100"><br></label>
+                      <button type="button" class="btn btn-primary">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="my-5"></div>
+
+            <b>10</b> result near <b>Customert</b>
+            <div class="cards">
+              <div class="row p-2">
+                <div class="col-md-12 col-12">
+                  <h5>Mr. Wilhelm Schmeler III </h5>
+                </div>
+                <div class="col-md-4 col-12">
+                    <i> Verification</i><br>
+                    Rating: <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><br>
+                    <span class="fa fa-calendar-alt"></span> 20/Mar/2018
+                    <hr>
+                </div>
+                <div class="col-md-4 col-12">
+                    <b>Destination:</b> Kuala Lumpur - Kedah<br>
+                    <b>Delivery date: </b> 20/Mar/2018 <br>
+                    <b>Volume:</b> 100 <br>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                  <h4>$11.00</h4> <button class="btn btn-primary" data-toggle="modal" data-target="#godeal">Go Deal</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards">
+              <div class="row p-2">
+                <div class="col-md-12 col-12">
+                  <h5>Alexandrine Ernser</h5>
+                </div>
+                <div class="col-md-4 col-12">
+                    <i> Verification</i><br>
+                    Rating: <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><br>
+                    <span class="fa fa-calendar-alt"></span> 20/Mar/2018
+                    <hr>                  
+                </div>
+                <div class="col-md-4 col-12">
+                    <b>Destination:</b> Sarawak - Kelantan<br>
+                    <b>Delivery date: </b> 20/Mar/2018 <br>
+                    <b>Volume:</b> 100 <br>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                  <h4>$11.00</h4> <button class="btn btn-primary" data-toggle="modal" data-target="#godeal">Go Deal</button>
+                </div>
+              </div>
+            </div>
+              
+            <div class="cards">
+                <div class="row p-2">
+                  <div class="col-md-12 col-12">
+                    <h5>Mr. Jensen Runolfsson</h5>
+                  </div>
+                  <div class="col-md-4 col-12">
+                      <i> Verification</i><br>
+                      Rating: <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><br>
+                      <span class="fa fa-calendar-alt"></span> 20/Mar/2018
+                      <hr>
+                  </div>
+                  <div class="col-md-4 col-12">
+                      <b>Destination:</b> Terengganu - Melaka<br>
+                      <b>Delivery date: </b> 20/Mar/2018 <br>
+                      <b>Volume:</b> 100 <br>
+                  </div>
+                  <div class="col-md-4 col-12 text-right">
+                    <h4>$11.00</h4> <button class="btn btn-primary" data-toggle="modal" data-target="#godeal">Go Deal</button>
+                  </div>
+              </div>
+            </div>
+
+            <div class="cards">
+              <div class="row p-2">
+                <div class="col-md-12 col-12">
+                  <h5>Mr. Jensen Runolfsson</h5>
+                </div>
+                <div class="col-md-4 col-12">
+                    <i> Verification</i><br>
+                    Rating: <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><br>
+                    <span class="fa fa-calendar-alt"></span> 20/Mar/2018
+                    <hr>
+                </div>
+                <div class="col-md-4 col-12">
+                    <b>Destination:</b> Terengganu - Melaka<br>
+                    <b>Delivery date: </b> 20/Mar/2018 <br>
+                    <b>Volume:</b> 100 <br>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                  <h4>$11.00</h4> <button class="btn btn-primary" data-toggle="modal" data-target="#godeal">Go Deal</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards">
+              <div class="row p-2">
+                <div class="col-md-12 col-12">
+                  <h5>Mr. Jensen Runolfsson</h5>
+                </div>
+                <div class="col-md-4 col-12">
+                    <i> Verification</i><br>
+                    Rating: <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><br>
+                    <span class="fa fa-calendar-alt"></span> 20/Mar/2018
+                    <hr>
+                </div>
+                <div class="col-md-4 col-12">
+                    <b>Destination:</b> Terengganu - Melaka<br>
+                    <b>Delivery date: </b> 20/Mar/2018 <br>
+                    <b>Volume:</b> 100 <br>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                  <h4>$11.00</h4> <button class="btn btn-primary" data-toggle="modal" data-target="#godeal">Go Deal</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards">
+              <div class="row p-2">
+                <div class="col-md-12 col-12">
+                  <h5>Mr. Jensen Runolfsson</h5>
+                </div>
+                <div class="col-md-4 col-12">
+                    <i> Verification</i><br>
+                    Rating: <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><br>
+                    <span class="fa fa-calendar-alt"></span> 20/Mar/2018
+                    <hr>
+                </div>
+                <div class="col-md-4 col-12">
+                    <b>Destination:</b> Terengganu - Melaka<br>
+                    <b>Delivery date: </b> 20/Mar/2018 <br>
+                    <b>Volume:</b> 100 <br>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                  <h4>$11.00</h4> <button class="btn btn-primary" data-toggle="modal" data-target="#godeal">Go Deal</button>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="godeal" tabindex="-1" role="dialog" aria-labelledby="ModalCheckout" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Holla!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <center>
+                <img src="images/success.png" width="200" class="mx-auto">
+                <p>Congratulations, you can send the package now!</p>
+                <p>Please Login or Register to continue.</p>
+              </center>
+            </div>
+            <div class="modal-footer">
+              <a href="login.html" class="btn btn-warning" ><span class="fa fa-user-plus"></span> Register</a>
+              <a href="register.html" class="btn btn-primary"><span class="fa fa-sign-in-alt"></span> Login</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-widget">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <h4>Mover</h4>
+                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis no strud.</p>
+              </div>
+              <div class="col-md-2 col-6">
+                <h4>Link</h4>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="faq.html">Faq</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-6">
+                <h4>Member</h4>
+                <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="forgot.html">Forgot Password?</a></li>
+                </ul>
+                <div class="mb-4"></div>
+              </div>
+              <div class="col-md-4 col-12">
+                <h4>Get In Touch</h4>
+                <ul>
+                  <li><span class="fa fa-map-marker-alt"></span> Kuala Lumpur</li>
+                  <li><span class="fa fa-phone"></span> (001) 001 001 001</li>
+                  <li><span class="fa fa-envelope"></span> email@tranportmaket.com</li>
+                </ul>
+                <div class="mb-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="divider"></div>
+  
+        <div class="copyright">
+            Copyright &copy Transport Market, All Right Reversed.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select.min.js"></script>    
+    <script src="js/jquery.sticky.js"></script>
+    <script>
+      /* Script Select Origin & Destination */
+      origin = new Select('#origin',{
+        filtered: 'auto',
+        filter_threshold: 3,
+        filter_placeholder: 'Filter options...'
+      });
+      destination = new Select('#destination',{
+        filtered: 'auto',
+        filter_threshold: 3,
+        filter_placeholder: 'Filter options...'
+      });
+
+      /* Set Filter to Top after Scrolling */
+      $(document).ready(function(){
+        $("#wrap").sticky({topSpacing:0,zIndex:2});
+      });
+    </script>
+
+  </body>
+</html>

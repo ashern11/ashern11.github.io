@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons-->
+	  <link rel="shortcut icon" type="image/png" href="images/logo.ico"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Invoice</title>
+    <style>
+    .form-control:disabled, .form-control[readonly] {
+    background-color: #ffffff;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.png" width="40"> MOVER</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><span class="fa fa-home"></span> Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+
+                <a class="nav-link" href="#"><span class="fa fa-user"></span> Mr Prof Name</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="fa fa-sign-out-alt"></span> Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+      </nav>
+    </header>
+
+    <main>
+
+    <!-- Checkout -->
+    <div class="jumbotron jumbotron-fluid p-2">
+      <div class="container">
+
+        <div class="row my-5">          
+          <!-- Vendor -->
+          <div class="col-lg-8 col-md-12">
+            <div class="row">
+              <!-- Table Vendor -->
+              <div class="col-md-12 col-12 mb-4">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5>Invoice #ff110011</h5>
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-6">
+                          <strong>Delivery Detail:</strong> <br>
+                          Yoga Customer <br>
+                          95622 Lambert Stream Apt. 884 Gilesville, NY 53373 <br>
+                          <strong>Phone:</strong> 082222222 <br>
+                          <strong>Mail ID:</strong> yoga.customer@mailinator.com
+                          <p></p>
+                        </div>
+                        <div class="col-6 text-right">
+                            <strong>#ffnoinvoice/2018-04-22 08:22:22</strong> <br>
+                            <strong>Invoice Info :</strong> <br>
+                            Yoga Vendor <br>
+                            <strong>Status Payment:</strong> Pending  <br>
+                            <strong>Status:</strong> Booking
+                        </div>
+                      </div>
+                      <!-- Tabel Horizontal -->
+                      <table class="table table-responsive">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Pickup Location</th>
+                            <th>Pickup Delivery</th>
+                            <th>Volume</th>
+                            <th>Price per m³</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Kedah</td>
+                            <td>Pulau Pinang, 95622 Lambert Stream Apt. 884 Gilesville, NY 53373</td>
+                            <td>100</td>
+                            <td>90.00</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td><strong>Offer</strong></td>
+                            <td><strong>0.00</strong></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td><strong>Grand Total</strong></td>
+                            <td><strong>90.00</strong></td>
+                          </tr>  
+                        </tbody>
+                      </table>
+                      
+                      <center>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#checkout"><span class="fa fa-dollar-sign"></span> Pay</button>            
+                        <button type="button" class="btn btn-warning"><span class="fa fa-times"></span> Cancel</button>            
+                      </center>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Payment Method -->
+          <div class="col-lg-4 col-md-12">              
+            <div class="card">
+              <div class="card-header"><h5>Payment Method</h5></div>
+              <div class="card-body">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="payment" id="Bank" value="bank" checked>
+                  <label class="form-check-label" for="Bank">
+                    Bank Payment
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="payment" id="Crypto" value="bank" checked>
+                  <label class="form-check-label" for="Crypto">
+                    Crypto Currency Payment
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="payment" id="Senang" value="bank" checked>
+                  <label class="form-check-label" for="Senang">
+                    Senang Pay
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+            
+      </div>
+    </div>
+
+  
+    <!-- Modal -->
+    <div class="modal fade" id="checkout" tabindex="-1" role="dialog" aria-labelledby="ModalCheckout" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Checkout Status</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <center>
+              <img src="images/success.png" width="200" class="mx-auto">
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary"  data-dismiss="modal"><span class="fa fa-check"></span> Finish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-widget">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <h4>Mover</h4>
+                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis no strud.</p>
+              </div>
+              <div class="col-md-2 col-6">
+                <h4>Link</h4>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="faq.html">Faq</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-6">
+                <h4>Member</h4>
+                <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="forgot.html">Forgot Password?</a></li>
+                </ul>
+                <div class="mb-4"></div>
+              </div>
+              <div class="col-md-4 col-12">
+                <h4>Get In Touch</h4>
+                <ul>
+                  <li><span class="fa fa-map-marker-alt"></span> Kuala Lumpur</li>
+                  <li><span class="fa fa-phone"></span> (001) 001 001 001</li>
+                  <li><span class="fa fa-envelope"></span> email@tranportmaket.com</li>
+                </ul>
+                <div class="mb-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="divider"></div>
+  
+        <div class="copyright">
+            Copyright &copy Transport Market, All Right Reversed.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

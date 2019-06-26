@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Smoothie';
+    src: url('../font/Smoothie-Shoppe.ttf');
+    src: url('../font/Smoothie-Shoppe.ttf') format('truetype');
+    font-style: normal      
+}
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('../font/Cocogoose.ttf');
+    src: url('../font/Cocogoose.ttf') format('truetype');
+    font-style: normal      
+}
+@font-face {
+    font-family: 'GOTHIC';
+    src: url('../font/GOTHIC.TTF');
+    src: url('../font/GOTHIC.TTF') format('truetype');
+    font-style: normal      
+}
+
+body{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.kolom{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 3rem!important;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-decoration: none;
+    min-width: 250px;
+}
+.btn-black{
+    color: #fff;
+    background-color: #222224;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: inset 0px 1px 1px 1px #ffffff75;
+}
+.btn-black:hover,.btn-black:focus,.btn-black:active{
+    background: #4267b2;
+    /* border-color: #4267b2; */
+}
+
+.btn-white{
+    color: #222224;
+    background-color: #fff;
+    border: 2px solid #222224;
+    border-radius: 20px;
+    margin: 10px;
+}
+.btn-white:hover,.btn-white:focus,.btn-white:active{
+    color: #4267b2;
+    border-color: #4267b2;
+}
+
+
+.header{
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    font-family: 'Cocogoose';
+    min-height: 700px;
+}
+.header a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.content{
+    background: url(../img/pattern.png);
+    background-size: 100%;
+    font-family: 'Cocogoose';
+    min-height: 100vh;
+    position: relative;
+}
+.content h2{
+    color: #222224;
+    font-size: 40px;
+}
+
+
+h1{
+    font-family: 'Cocogoose';
+    font-size: 35px;
+    color: #f8bd23;    
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+h2{
+    font-family: 'Smoothie';
+    font-size: 28px;
+    color: #f8bd23;
+    font-weight: 500;
+}
+
+.footer{
+    background: url(../img/footer.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    min-height: 330px;
+}

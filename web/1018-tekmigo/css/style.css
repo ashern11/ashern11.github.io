@@ -1,0 +1,376 @@
+@font-face {
+    font-family: Gothic;
+    src: url('../font/GOTHICB.TTF');
+}
+nav.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav a{
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 0 30px;
+}
+nav a:hover{
+    color: #f29600;
+}
+
+body{
+    font-family: Gothic;
+}
+.btn-primary{
+    background: #f29600;
+    border-color: #f29600;
+    border-radius: 0;
+}
+.btn-primary:hover{
+    background: #b97200;
+    border-color: #b97200;
+    border-radius: 0;
+}
+.btn-secondary{
+    background: #222323;
+    border-radius: 0;
+}
+.middle{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+.header{
+    background-image: url(../images/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.header h1{
+    font-size: 500%;
+}
+.header h4{
+    letter-spacing: 5px;
+}
+.header hr{
+    margin-top: 2%;border-bottom: 10px solid #fff; width:5%;
+}
+
+
+.keunggulan{
+    background: #fbf4ec;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.keunggulan h1{
+    color: #f29600;
+}
+.benefit{
+    padding: 50px;
+}
+.line:after{
+    content: '';
+    position: absolute;
+    top: 120px;
+    right: 0;
+    margin-right: -50px;
+    width: 30%;
+    border-top:7px dashed #f29600;
+}
+.benefit-img, .benefit-desc{
+    text-align: center;
+}
+
+
+.tentang{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tentang .tentang-deskripsi{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.tentang .tentang-image{
+    background-size: 100% auto;
+    background-repeat: no-reapeat;
+    min-height: 500px;
+}
+.tentang .tentang-content{
+    background: #fbf4ec;
+}
+
+
+.belanja{
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.belanja h2 
+{ 
+    color: #808080;
+    width:100%; 
+    text-align:right; 
+    border-bottom: 2px solid #808080; 
+    line-height:0.1em; 
+    margin:10px 0 20px; } 
+.belanja h2 span 
+{
+    background:#fff; 
+    padding:0 10px;
+}
+.belanja .belanjabesar{
+    min-height: 500px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.belanja .belanjakecil{
+    padding-top: 20px;
+    min-height: 300px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.belanja .bl{
+    border-left:10px solid #fff
+}
+.belanja .br{
+    border-right:10px solid #fff
+}
+
+
+.menu{
+    background: url(../images/bg-menu.jpg);
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.menu h4{
+    color: #222323;
+}
+.menu .listmenu{
+    padding: 1% 10%;
+}
+.menu .listmenu h6.desc{
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.order{
+    background: #fbf4ec;
+}
+.order h2 
+{ 
+    color: #808080;
+    width:100%; 
+    text-align:left; 
+    border-bottom: 2px solid #808080; 
+    line-height:0.1em; 
+    margin:10px 0 20px; } 
+.order h2 span 
+{
+    background:#fbf4ec; 
+    padding:0 10px;
+}
+.order-img, .order-desc{
+    text-align: center;
+}
+
+
+.instagram h2 {
+    width:100%;
+    text-align:right;
+    border-bottom: 2px solid #808080;
+    line-height:0.1em;
+    margin:10px 0 20px;
+} 
+.instagram h2 span {
+    color: #808080;
+    background:#fff;
+    padding:0 10px;
+}
+.slick-instagram{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.slick-track{
+    overflow: -webkit-paged-x;
+    padding-top: 80px;
+}
+.slick-active{
+    display: block;
+}
+.slick-slide{
+    display: none;
+    opacity: .5;
+    padding: 0 20px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+.slick-slide img{
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.slick-center {
+    display: block;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    border-radius: 20px;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+/* Section Footer */
+footer ul{
+    padding: 0;
+    list-style: none;
+}
+footer ul a{
+    color: #fff;
+}
+
+.footer-area h4 {
+    font-weight: bold;
+    padding-bottom: 10px
+}
+
+.single-footer-widget .navbar-form .lnr {
+    padding: 11px;
+    font-weight: 900;
+    font-size: 13px !important;
+    color: #fff;
+}
+.footer-area .genric-btn {
+    padding: 0;
+    background: #855d31;
+    border: none;
+    height: 36px;
+    line-height: 41px
+}
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.footer-widget-wrap {
+    background: #212121;
+    color: #fff
+}
+
+.single-footer-widget .navbar-form {
+    width: 100%
+}
+
+.single-footer-widget .navbar-form .form-control {
+    border: none;
+    font-size: 13px;
+    background-color: #f9f9ff;
+    border: 1px solid #f9f9ff
+}
+
+.single-footer-widget .navbar-form .add-on {
+    background: #f9f9ff;
+    border: 1px solid #fff
+}
+
+.single-footer-widget .navbar-form .genric-btn:hover {
+    background-color: #212121;
+}
+
+.single-footer-widget .navbar-form span {
+    padding: 10px 50px;
+    font-weight: 500;
+    font-size: 15px !important;
+    color: #fff
+}
+
+.footer-bottom-wrap {
+    background: #212121;
+    color: #fff
+}
+
+.footer-bottom {
+    padding: 15px 0px
+}
+.single-footer-widget .fa{
+    font-size: 30px;
+    color: #fff;
+    margin: 0 20px;
+}
+.footer-area a:hover{
+    color: #855d31;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+    .benefit{
+        padding: 0;
+    }
+    .line:after{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px){
+    .navbar-brand{
+        padding-left: 0;
+    }
+
+    .header h1{
+        font-size: 350%;
+    }
+    .header h4{
+        letter-spacing: 5px;
+    }
+
+    .benefit{
+        padding: 0;
+    }
+    .keunggulan h4{
+        font-size: 10px
+    }
+
+    .tentang .tentang-image{
+        background-size: cover;
+        background-repeat: no-reapeat;
+        min-height: 300px;
+    }
+    .tentang .tentang-content{
+        min-height: 300px;
+    }
+
+    .belanja .belanjabesar{
+        min-height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .belanja .belanjakecil{
+        min-height: 210px;
+    }
+    .belanja .bl,.belanja .br{
+        border-left: unset;
+        border-right: unset;
+    }
+
+    .order h4{
+        font-size: 14px;
+    }
+
+    .slick-center{
+        transform: scale(1.25);
+    }
+}

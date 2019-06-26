@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'Smoothie';
+    src: url('../font/Smoothie-Shoppe.ttf');
+    src: url('../font/Smoothie-Shoppe.ttf') format('truetype');
+    font-style: normal      
+}
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('../font/Cocogoose-Pro-Ultralight-trial.ttf');
+    src: url('../font/Cocogoose-Pro-Ultralight-trial.ttf') format('truetype');
+    font-style: normal      
+}
+
+body.pace-running:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1500;
+    background: rgba(0, 0, 0, 0.95)
+}
+
+.f-smoothie{
+    font-family: 'Smoothie';
+}
+h1.f-smoothie{
+    font-size: 5em;
+}
+section div.container-fluid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gold{
+    color: #fcba0e;
+}
+.border-right-black{
+    border-right: 1px solid #000;
+}
+.slick img{
+    margin: 0 auto;
+}
+.btn{
+    border-radius: 50px;
+}
+.btn-primary{
+    background: #fcba0e ;
+    border-color: #fcba0e ;
+    color: #000;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-primary:hover{
+    background: #ff8800 ;
+    border-color: #ff8800 ;
+    color: #000000;
+}
+.btn-outline-primary{
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btn-outline-primary:hover{
+    background: #fcba0e;
+    border: 2px solid #ffb700;
+    color: #000;
+}
+
+
+.wrapper{
+    position: relative;
+}
+.cover{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: url(../images/cover.jpg);
+    background-size: 100% auto;
+}
+.cover h1{
+    font-size: 8em;
+    color: #fff;
+}
+.ikon{
+    position: fixed;
+    top: 4vh;
+    left: 2vw;
+}
+
+.content{
+    padding-top: 70vh;
+    height: auto
+}
+
+.comeon{
+    background: url(../images/bg-head.png);
+    background-size: 100% 100%;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+.about{
+    position: relative;
+    background: url(../images/bg-about.jpg);
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+.featured{
+    position: relative;
+    background: url(../images/bg-featured.jpg);
+    background-size: 100% 100%;
+    padding: 20px;
+    margin-top: -1px;
+    font-size: 20px;
+    font-weight: 500;
+}
+    .featured .kolomkiri{
+        padding-left: 5vw;
+    }
+    .featured .kolomkanan{
+        padding-right: 5vw;
+    }
+    .box{
+        position: relative;
+        margin-top: 40px;
+        padding: 30px 0 0 120px;
+    }
+    .box.right{
+        padding: 30px 120px 0 0;
+        text-align: right;
+    }
+    .icon{
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        left: 0;
+    }
+    .icon.right{
+        left: auto;
+        right: 0;
+    }
+    .icon img{
+        display: block;
+        position: relative;
+    }
+
+
+.product{
+    position: relative;
+    margin-top: -10vh;
+    background: url(../images/5.jpg);
+    background-size: cover;
+}
+    .product .row{
+        padding-top: 10vh;
+    }
+    .product h4{
+        color: #fff;
+    }
+
+
+.testimoni{
+    position: relative;
+    background: #000;
+    color: #fff;
+}
+.testimoni .content-testimoni{
+    padding: 1rem;
+}
+
+
+.rating{
+    position: relative;
+    background: url(../images/bg-rating.jpg);
+    background-size: cover;
+}
+    .rating .rate{
+        text-align: center;
+        background: #fff;
+        height: 100%;
+        box-shadow: 2px 2px 15px 5px #00000030;
+    }
+    .rating .fa{
+        color: #fcba0e;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: black;
+    }
+
+
+.margin{
+    position: relative;
+    background: url(../images/5.jpg);    
+    color: #fff;
+}
+    .margin-content{
+        padding: 1.5em 0;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+.ketentuan{
+    position: relative;
+    background: url(../images/5.jpg);
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+    padding-bottom: 200px!important;
+}
+    .ketentuan .contact{
+        position: relative;
+        margin-top: 40px;
+        padding: 40px 0 0 120px;
+    }
+    .ketentuan .icon-contact{
+        display: block;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        top: 0;
+        left: 0;
+    }
+    .ketentuan .icon-contact img{
+        display: block;
+        position: relative;
+    }
+    .ketentuan .contact h4{
+        word-break: break-word;
+    }
+    .ketentuan a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .ketentuan a:hover, .ketentuan a:focus, .ketentuan a:active{
+        color: #f7cd63;
+    }
+
+.join{
+    position: relative;
+    background: url(../images/bg-join.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.footer{
+    position: relative;
+    background: #000;
+    color: #fff;
+}
+.bg-footer{
+    background: url(../images/7.png);
+    color: #fff;
+    position: relative;
+    z-index: 5;
+    margin-top: -10vh;
+    height: 10vh;
+}
+
+
+
+
+@media only screen and (max-width: 760px){
+    .border-right-black, .border-right, .border-left, .border-top{
+        border: none!important;
+    }
+
+    .about .box{
+        background: #00000080;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .content{
+        padding-top: 50vh;
+    }
+
+    h1.f-smoothie{
+        font-size: 3.5em;
+    }
+    h4{
+        font-size: unset;
+    }
+    .cover h1{
+        font-size: 3em;
+    }
+
+    .featured{
+        background-size: cover;
+        background-position: center;
+    }
+    .featured .kolomkiri,.featured .kolomkanan{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .box{
+        padding: 20px 0 0 100px;
+        margin: 0;
+    }
+    .box.right{
+        padding: 30px 0 0 100px;
+        text-align: left;
+    }
+    .box img{
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 80%;
+    }
+    .icon.right{
+        left: 0;
+        right: unset;
+    }
+
+    .cover{
+        background-size: cover;
+        background-position: center;
+    }
+    .comeon{
+        background-size: cover;
+        background-position: right;
+    }
+    .about{
+        background-size: cover;
+        background-position: right;
+    }
+    .about .row{
+        background: url(../images/3.jpg);
+        background-size: auto 100%;
+    }
+    .rating{
+        padding: 50px 15px !important;
+    }
+    .join{
+        background-size: cover;
+    }
+
+    .slick-prev{
+        left: 0px;
+    }
+    .slick-next{
+        right: 0px;
+    }
+
+    .margin-content{
+        padding: 0em 0;
+        text-align: left;
+        font-size: 1em;
+    }
+
+
+
+}
