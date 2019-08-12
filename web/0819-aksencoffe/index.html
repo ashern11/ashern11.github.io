@@ -293,33 +293,63 @@
                     <h1 class="title">Testimoni</h1>
                     <div class="row" id="testimoni">
                         <div class="col-sm-4 col-12 p-4 border-right border-bottom">
-                            <h4 class="customer">Putri Melati</h4>
-                            <small>Selebgram</small>
+                            <div class="header">
+                                <img src="images/testimoni/PutriMelati.jpg" class="img-fluid" alt="">
+                                <div class="title">
+                                    <h4 class="customer">Putri Melati</h4>
+                                    <small>Selebgram</small>
+                                </div>
+                            </div>
                             “aku udah nyobain yang ice charcoal, enak banget kayak makan kue. Asli aku suka banget! Hmm enak banget! Matcha nya juga enak kayak (minum matcha) di cafe mahal!”
                         </div>
                         <div class="col-sm-4 col-12 p-4 border-right border-bottom">
-                            <h4 class="customer">Resa Rere</h4>
-                            <small>Selebgram</small>
+                            <div class="header">
+                                <img src="images/testimoni/resarere.jpg" class="img-fluid" alt="">
+                                <div class="title">
+                                    <h4 class="customer">Resa Rere</h4>
+                                    <small>Selebgram</small>
+                                </div>
+                            </div>
                             “Asli endolita pisan (banget) coffee nya masyaAllah! Matcha nya creamy banget.
                         </div>
                         <div class="col-sm-4 col-12 p-4 border-bottom">
-                            <h4 class="customer">Risa Kariska</h4>
-                            <small>Owner @femmeoutfit</small>
+                            <div class="header">
+                                <img src="images/testimoni/RisaKariska.jpg" class="img-fluid" alt="">
+                                <div class="title">
+                                    <h4 class="customer">Risa Kariska</h4>
+                                    <small>Owner @femmeoutfit</small>
+                                </div>
+                            </div>
                             “Rasa nya sesuai dengan tagline nya! Rasanya! Mengejutkan”
                         </div>
                         <div class="col-sm-4 col-12 p-4 border-right">
-                            <h4 class="customer">Putri Melati</h4>
-                            <small>Selebgram</small>
+                            <div class="header">
+                                <img src="images/testimoni/PutriMelati.jpg" class="img-fluid" alt="">
+                                <div class="title">
+                                    <h4 class="customer">Putri Melati</h4>
+                                    <small>Selebgram</small>
+                                </div>
+                            </div>
                             “aku udah nyobain yang ice charcoal, enak banget kayak makan kue. Asli aku suka banget! Hmm enak banget! Matcha nya juga enak kayak (minum matcha) di cafe mahal!”
                         </div>
                         <div class="col-sm-4 col-12 p-4 border-right">
-                            <h4 class="customer">Resa Rere</h4>
-                            <small>Selebgram</small>
+                            <div class="header">
+                                <img src="images/testimoni/resarere.jpg" class="img-fluid" alt="">
+                                <div class="title">
+                                    <h4 class="customer">Resa Rere</h4>
+                                    <small>Selebgram</small>
+                                </div>
+                            </div>
                             “Asli endolita pisan (banget) coffee nya masyaAllah! Matcha nya creamy banget.
                         </div>
                         <div class="col-sm-4 col-12 p-4">
-                            <h4 class="customer">Risa Kariska</h4>
-                            <small>Owner @femmeoutfit</small>
+                            <div class="header">
+                                <img src="images/testimoni/RisaKariska.jpg" class="img-fluid" alt="">
+                                <div class="title">
+                                    <h4 class="customer">Risa Kariska</h4>
+                                    <small>Owner @femmeoutfit</small>
+                                </div>
+                            </div>
                             “Rasa nya sesuai dengan tagline nya! Rasanya! Mengejutkan”
                         </div>
                     </div>
@@ -410,11 +440,12 @@
 
     $('#testimoni').slick({
         mobileFirst: true, 
+        adaptiveHeight: true,
         responsive: [
-        {
-            breakpoint: 480,
-            settings: "unslick"
-        }
+            {
+                breakpoint: 480,
+                settings: "unslick"
+            }
         ]
     });
 
