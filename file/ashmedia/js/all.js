@@ -20,7 +20,7 @@ $(".smooth-scroll").on("click", function () {
 // WA Notif
 window.addEventListener("load", function () {
     var audio = document.createElement("audio");
-    audio.src = "../audio/whatsapp.mp3";
+    audio.src = "https://ashern11.github.io/file/audio/whatsapp.mp3";
     audio.preload = "auto";
     audio.addEventListener("canplaythrough", function () {
         setTimeout(function () {
@@ -148,12 +148,12 @@ function konsultasiWA() {
 
 // Push Notification Order
 var data = [
-    ['image/sales/ikhsan.png', 'IKHSAN', 'PAKET LANDING PAGE', '10 Menit Lalu'],
-    ['image/sales/isnaini.jpg', 'ISNAINI', 'PAKET LANDING PAGE', '5 Menit Lalu'],
-    ['image/sales/maulana.jpg', 'MAULANA', 'PAKET LANDING PAGE', '20 Menit Lalu'],
-    ['image/sales/risky.jpg', 'RISKY', 'PAKET LANDING PAGE', '25 Menit Lalu'],
-    ['image/sales/sekar.jpg', 'SEKAR', 'PAKET LANDING PAGE', '2 Menit Lalu'],
-    ['image/sales/vani.jpg', 'VANNI', 'PAKET LANDING PAGE', '1 Menit Lalu']
+    ['https://ashern11.github.io/file/ashmedia/image/sales/ikhsan.png', 'IKHSAN', 'PAKET LANDING PAGE', '10 Menit Lalu'],
+    ['https://ashern11.github.io/file/ashmedia/image/sales/isnaini.jpg', 'ISNAINI', 'PAKET LANDING PAGE', '5 Menit Lalu'],
+    ['https://ashern11.github.io/file/ashmedia/image/sales/maulana.jpg', 'MAULANA', 'PAKET LANDING PAGE', '20 Menit Lalu'],
+    ['https://ashern11.github.io/file/ashmedia/image/sales/risky.jpg', 'RISKY', 'PAKET LANDING PAGE', '25 Menit Lalu'],
+    ['https://ashern11.github.io/file/ashmedia/image/sales/sekar.jpg', 'SEKAR', 'PAKET LANDING PAGE', '2 Menit Lalu'],
+    ['https://ashern11.github.io/file/ashmedia/image/sales/vani.jpg', 'VANNI', 'PAKET LANDING PAGE', '1 Menit Lalu']
 ];
 
 var no = 0;
