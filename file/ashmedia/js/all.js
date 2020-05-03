@@ -20,7 +20,7 @@ $(".smooth-scroll").on("click", function () {
 // WA Notif
 window.addEventListener("load", function () {
     var audio = document.createElement("audio");
-    audio.src = "audio/pesan2.mp3";
+    audio.src = "../audio/whatsapp.mp3";
     audio.preload = "auto";
     audio.addEventListener("canplaythrough", function () {
         setTimeout(function () {
@@ -33,17 +33,6 @@ window.addEventListener("load", function () {
         }, 2000);
     }, false);
 }, false);
-
-$(document).ready(function(){
-    $('#default-1').on('click', function(){
-        if($("#default-1").prop("checked")){
-            window.location.href= 'index_en.html';
-        }else{
-            window.location.href= 'index.html';
-        }
-    });
-});
-
 
 $('#modalBeli').on('show.bs.modal', function (event) {
     $('#input_paket').val($(event.relatedTarget).data('paket'));
